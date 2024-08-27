@@ -1,0 +1,13 @@
+.burgerBG {
+    z-index: -1;
+    width: 100vw;
+    object-fit: cover;
+    overflow: hidden;
+    height: 50em;
+    background-image: url('bg-box.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+  }

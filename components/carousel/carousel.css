@@ -1,0 +1,80 @@
+.carousel {
+    z-index: -1;
+    object-fit: cover;
+    overflow: hidden;
+    height: 50em;
+    background-image: url('bg-box.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+}
+
+.carPage {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    /*background-color: rgb(12, 97, 97);*/
+}
+
+.bigText {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.paraText {
+    margin-top: 1em;
+    font-size: 1.1em;
+    padding: 0 1em;
+}
+
+.cmdBtn {
+    margin-top: 2em;
+    background-color:  #ffbe33;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    padding: 1em 2em;
+    width: 12em;
+}
+
+.carouselContainer {
+    display: flex;
+    overflow: scroll;
+    flex-wrap: nowrap;
+    gap: 90vw;
+}
+
+/* .page {
+    
+} */
+
+.pointContainer {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    margin: 1em;
+}
+
+.point {
+
+    background-color: #ffffff;
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+}
+
+.active {
+    background-color: #ffbe33;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+@media only screen and (min-width: 568px) {
+    .paraText {
+        max-width: 50%;
+    }
+}

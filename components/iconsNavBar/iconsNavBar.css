@@ -1,0 +1,16 @@
+.iconsNavBar {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 15em;
+    gap: 1em;
+}
+
+.clickAndCollectBtn {
+    background-color:  #ffbe33;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 1em;
+}
