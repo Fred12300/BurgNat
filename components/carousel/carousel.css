@@ -1,66 +1,42 @@
-.carousel {
-    z-index: -1;
-    object-fit: cover;
+.carouselContainer {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    width: 100%;
     overflow: hidden;
-    height: 50em;
-    background-image: url('bg-box.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #ffffff;
-    position: absolute;
-    top: 0;
+    height: 600px;
+    margin-top: 3em;
 }
 
-.carPage {
+.carouselPage {
+    flex: 0 0 100%;
     display: flex;
-    flex-direction: column;
-    width: 100vw;
-    /*background-color: rgb(12, 97, 97);*/
+    scroll-snap-align: start;
+    padding: 0  1em;
 }
+
+
 
 .bigText {
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: 700;
 }
 
 .paraText {
-    margin-top: 1em;
+    margin: 1em 0;
     font-size: 1.1em;
     padding: 0 1em;
 }
 
-.cmdBtn {
-    margin-top: 2em;
-    background-color:  #ffbe33;
-    border: none;
-    border-radius: 30px;
-    color: white;
-    font-size: large;
-    font-weight: 600;
-    padding: 1em 2em;
-    width: 12em;
-}
-
-.carouselContainer {
-    display: flex;
-    overflow: scroll;
-    flex-wrap: nowrap;
-    gap: 90vw;
-}
-
-/* .page {
-    
-} */
-
 .pointContainer {
     display: flex;
-    gap: 0.5em;
+    gap: 1em;
     align-items: center;
     margin: 1em;
 }
 
 .point {
-
     background-color: #ffffff;
     height: 1em;
     width: 1em;
@@ -73,8 +49,24 @@
     width: 1.5em;
 }
 
+.cmdBtn {
+    margin-top: 2em;
+    background-color:  #ffbe33;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: x-large;
+    font-weight: 600;
+    padding: .5em 2em;
+}
+
+
+
+
+
+
 @media only screen and (min-width: 568px) {
     .paraText {
         max-width: 50%;
     }
-}
+} 

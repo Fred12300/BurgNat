@@ -2,12 +2,17 @@
     z-index: -1;
     width: 100vw;
     object-fit: cover;
-    overflow: hidden;
-    height: 50em;
+    height: 900px;
     background-image: url('bg-box.jpg');
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: #ffffff;
-    position: absolute;
     top: 0;
+  }
+
+  .promos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }

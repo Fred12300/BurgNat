@@ -22,11 +22,11 @@ const NavBar = () => {
             <div className="logo">
                 <Link to="/"><img src="logo-BurgerNation.png" alt="Logo" /></Link>
             </div>
-            <button className="burger" onClick={changeNav}>
+            <div className="burger" onClick={changeNav}>
                 <div className="trait haut"></div>
                 <div className="trait milieu"></div>
                 <div className="trait bas"></div>
-            </button>
+            </div>
             <nav className={`navNav ${isActive ? "animNav" : ""} ${landscape ? "animNav" : ""}`}>
                 <ul className="navUl">
                     <li>
