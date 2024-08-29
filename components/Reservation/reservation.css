@@ -1,0 +1,25 @@
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    width: 90vw;
+    margin: 2em 0;
+}
+
+.reservation {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    padding: 3em 1em 3em 1em;
+}
+
+.inputField {
+    height: 3em;
+    width: 90vw;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 1em;
+}
+

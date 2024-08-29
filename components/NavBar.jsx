@@ -4,7 +4,7 @@ import IconsNavBar from './iconsNavBar/iconsNavBar';
 import { useMediaQuery } from "react-responsive";
 import { Link } from 'react-router-dom';
 
-const NavBar = () => {
+const NavBar = ({dark}) => {
     const [isActive, setIsActive] = useState(false);
 
     const changeNav = () => {
@@ -18,9 +18,9 @@ const NavBar = () => {
     const landscape = useMediaQuery({ query: '(min-width: 568px)' });
 
     return (
-        <div className="navBar">
-            <div className="logo">
-                <Link to="/"><img src="logo-BurgerNation.png" alt="Logo" /></Link>
+        <div className={`navBar ${dark ? 'dark' : ''}`}>
+            <div>
+                <Link className="logo" to="/"><img src="logo-BurgerNation.png" alt="Logo" /></Link>
             </div>
             <div className="burger" onClick={changeNav}>
                 <div className="trait haut"></div>
@@ -30,7 +30,7 @@ const NavBar = () => {
             <nav className={`navNav ${isActive ? "animNav" : ""} ${landscape ? "animNav" : ""}`}>
                 <ul className="navUl">
                     <li>
-                        <Link to="/Carte" className="navLi">LA CARTE</Link>
+                        <Link to="/CartePage" className="navLi">LA CARTE</Link>
                     </li>
                     <li>
                         <Link to="/APropos" className="navLi">A PROPOS</Link>

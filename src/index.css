@@ -1,0 +1,32 @@
+:root {
+    --mainColor: rgb(255, 255, 255);
+    --btnBgColor: #ffbe33;
+    --btnBgHover: #e69c00;
+    --invertFilter : none;
+    --cardsBgColor: rgb(34, 42, 56);
+}
+
+.dark {
+    --mainColor: rgb(38, 37, 68);
+    --invertFilter: invert();
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.1em;
+}
+

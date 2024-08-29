@@ -1,14 +1,13 @@
 import NavBar from '../../components/NavBar'
-import About from '../../components/About/About'
+import Carte from '../../components/Carte/Carte'
 
-
-const APropos = () => {
+const CartePage = () => {
     return (
         <div>
             <NavBar dark/>
-            <About />
+            <Carte />
         </div>
     )
 }
 
-export default APropos
+export default CartePage

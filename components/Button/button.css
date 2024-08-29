@@ -1,16 +1,17 @@
 .myButton {
-    background-color:  #ffbe33;
+    width: fit-content;
+    background-color: var(--btnBgColor);
     border: none;
     border-radius: 30px;
-    color: white;
-    padding: 0.8em 1.8em;
+    color: var(--mainColor);
+    padding: 0.6em 1.8em;
     display: flex;
     align-items: center;
     gap: 0.6em;
     font-size: larger;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .myButton:hover {
-    background-color: #e69c00;
+    background-color: var(--btnBgHover);
 }

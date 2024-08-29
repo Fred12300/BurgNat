@@ -1,0 +1,28 @@
+.footer {
+    padding: 3em 1em;
+    background-color: var(--cardsBgColor);
+    color: var(--mainColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3em;
+}
+
+.logos{
+    color: var(--cardsBgColor);
+    display: flex;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--mainColor);
+    height: 2em;
+    width: 2em;
+}
+
+.footer i {
+    margin: 0 .7em;
+}

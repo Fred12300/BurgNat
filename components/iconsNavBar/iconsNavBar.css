@@ -6,3 +6,10 @@
     max-width: 15em;
     gap: 1em;
 }
+
+.littleIcons {
+    display: flex;
+    align-items: center;
+    height: 3em;
+    gap: 1em;
+}

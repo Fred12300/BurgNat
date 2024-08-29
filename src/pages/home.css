@@ -1,14 +1,9 @@
 .burgerBG {
-    z-index: -1;
     width: 100vw;
-    object-fit: cover;
-    height: 900px;
     background-image: url('bg-box.jpg');
-    background-size: cover;
+    background-size:auto;
     background-position: center;
     background-repeat: no-repeat;
-    color: #ffffff;
-    top: 0;
   }
 
   .promos {

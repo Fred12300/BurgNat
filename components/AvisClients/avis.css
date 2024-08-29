@@ -1,0 +1,60 @@
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    
+    border-bottom: 12px solid var(--btnBgColor);
+    position: relative;
+    top: 1px;
+  }
+
+.avisPic {
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    border: 6px solid var(--btnBgColor);
+}
+
+.photoFleche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avisTexte {
+    width: 90vw;
+    background-color: var(--cardsBgColor);
+    padding: 1.5em;
+    border-radius: 8px;
+}
+
+.unAvis {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 100%;
+    gap: 1.5em; 
+    margin: 3em 0;
+    color: var(--mainColor);
+}
+
+.avis {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    padding: 3em 1em 3em 1em;
+}
+
+.carouselAvis {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    width: 100vw;
+    overflow: hidden;
+    height: 600px;
+    margin-top: 3em;
+    gap: 5em;
+}

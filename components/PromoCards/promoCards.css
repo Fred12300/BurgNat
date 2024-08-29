@@ -1,6 +1,7 @@
 .card {
     margin-top: 2em ;
-    background-color: rgb(41, 39, 59);
+    background-color: var(--cardsBgColor);
+    color: var(--mainColor);
     display: flex;
     flex-direction: column;
     padding: 1em 5em;
@@ -11,7 +12,7 @@
 
 .image {
     border-radius: 50%;
-    border: 6px solid rgb(255, 208, 0);
+    border: 6px solid var(--btnBgColor);
     overflow: hidden;
     height: 12em;
     width: 12em;

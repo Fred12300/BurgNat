@@ -1,6 +1,7 @@
 import './carte.css'
 import foodData from '../../foodData.json'
 import { useEffect, useState } from 'react';
+import Button from '../Button/Button'
 
 const CatSelector = ({ selectedCat, setSelectedCat }) => {
     
@@ -63,11 +64,11 @@ const Carte = () => {
                             <img src={ele.image} alt="{ele.image}" />
                         </div>
                     <div className="cardText">
-                        <div className='cardTitle'>{ele.name}</div>
-                        <div className='cardDescription'>{ele.description}</div>
+                        <h4 className='cardTitle'>{ele.name}</h4>
+                        <p className='cardDescription'>{ele.description}</p>
                     </div>
                     <div className="cardCarte">
-                        <div>{ele.price}</div>
+                        <p>{ele.price}</p>
                         <div className='roundButton'>
                         <i className="fa-solid fa-cart-shopping"></i>
                         </div>
@@ -75,7 +76,7 @@ const Carte = () => {
                 </div>
             )}
             </div>
-
+            <Button content="Voir Plus"/>
         </div>
     )
 }

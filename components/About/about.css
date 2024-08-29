@@ -1,0 +1,17 @@
+.about {
+    color: var(--mainColor);
+    background-color: var(--cardsBgColor);
+    padding: 3em 1em 3em 1em;
+}
+
+.aboutTop {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.aboutImg {
+    margin-top: 4em;
+    width: 100%;
+    object-fit: contain;
+}

@@ -10,9 +10,13 @@
     flex-wrap: wrap;
     justify-content: space-between;
     background: none;
-    color: white;
+    color: var(--mainColor);
     align-items: center;
-    padding: 1em;
+    padding: 2em 0.5em;
+}
+
+.logo {
+    filter: var(--invertFilter);
 }
 
 .burger:hover, .logo:hover, .navLi:hover {
@@ -50,7 +54,7 @@
 .trait {
     height: 4px;
     width: 30px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--mainColor);
     transition: transform 0.5s linear, opacity 0.3s;
     transition-delay: 0s, 0.2s;
     border-radius: 20%;
@@ -81,7 +85,7 @@
 }
 
 .navLi {
-    color: white;
+    color: var(--mainColor);
     text-decoration: none;
 }
 

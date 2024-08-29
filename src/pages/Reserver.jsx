@@ -1,10 +1,11 @@
 import NavBar from '../../components/NavBar'
+import Reservation from '../../components/Reservation/Reservation'
 
 const Reserver = () => {
     return (
         <div>
-            <NavBar />
-            RESERVER
+            <NavBar dark/>
+            <Reservation />
         </div>
     )
 }
