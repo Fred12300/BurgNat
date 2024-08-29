@@ -3,62 +3,62 @@
     "name": "Delicious Pizza",
     "description": "Bla bla blabla blabl blab lbablabla blabla blablabal bla.",
     "price": "12€",
-    "image": "/f1.jpg"
+    "image": "/f1.png"
     },
     { "id": "2",
     "category": "Burgers",
     "name": "Delicious Burger",
     "description": "Bla bla blabla blabl blab lbablabla blabla blablabal bla.",
     "price": "9€",
-    "image": "/f2.jpg"
+    "image": "/f2.png"
     },
     { "id": "3",
     "category": "Pizzas",
     "name": "Suculent Pizza",
     "description": "Bla bla blabla blabl blab lbablabla blabla blablabal bla.",
     "price": "15€",
-    "image": "f3.jpg"
+    "image": "f3.png"
     },
     { "id": "4",
     "category": "Pates",
     "name": "Yummi Pasta",
     "description": "Bla bla blabla blabl blab lbablabla blabla blablabal bla.",
     "price": "7.50€",
-    "image": "f4.jpg"
+    "image": "f4.png"
     },
     { "id": "5",
     "category": "Frites",
     "name": "Greasy Fries",
     "description": "Bla bla blabla blabl blab lbablabla blabla blablabal bla.",
     "price": "4€",
-    "image": "f5.jpg"
+    "image": "f5.png"
     },
     { "id": "6",
     "category": "Pizzas",
     "name": "Not so good Pizza",
     "description": "Bla bla blabla blabl blab lbablabla blabla blablabal bla.",
     "price": "9€",
-    "image": "f6.jpg"
+    "image": "f6.png"
     },
     { "id": "7",
     "category": "Burgers",
     "name": "Burger (tout court)",
     "description": "Simple; Efficace.",
     "price": "15€",
-    "image": "f7.jpg"
+    "image": "f7.png"
     },
     { "id": "8",
     "category": "Burgers",
     "name": "Delicious Pizza",
     "description": "Mais est-ce vraiment une pizza ???",
     "price": "2€",
-    "image": "f8.jpg"
+    "image": "f8.png"
     },
     { "id": "9",
     "category": "Pates",
     "name": "Youpi Pasta",
     "description": "Ouai ouaia oauio ouauiaouai oa ouia oui oiuyoupi.",
     "price": "10.50€",
-    "image": "f9.jpg"
+    "image": "f9.png"
     }
 ]

@@ -4,13 +4,11 @@ import { useEffect, useState } from 'react';
 
 const CatSelector = ({ selectedCat, setSelectedCat }) => {
     
-
-    // Extract unique categories using a Set
     const categories = Array.from(new Set(foodData.map((ele) => ele.category)));
 
     const selectCat = (event) => {
         const selectedId = event.target.id;
-        setSelectedCat(selectedId); // Update the state first
+        setSelectedCat(selectedId);
     };
 
     return (
@@ -45,9 +43,9 @@ const Carte = () => {
         const categories = ["Tous", ...Array.from(new Set(foodData.map((ele) => ele.category)))];
         
         if (selectedCat === "0") {
-            setFilteredData(foodData); // Show all food data if "Tous" is selected
+            setFilteredData(foodData);
         } else {
-            const category = categories[selectedCat]; // Get the selected category name
+            const category = categories[selectedCat];
             setFilteredData(foodData.filter(ele => ele.category === category));
         }
     }, [selectedCat]);
@@ -61,9 +59,19 @@ const Carte = () => {
             <div className="cardContainer">
             {filteredData.map((ele)=>
                 <div key={ele.id} className='cardBox'>
-                    <img src={ele.image} alt="{ele.image}" />
-                    <div>{ele.name}</div>
-                    <div>{ele.price}</div>
+                        <div className='cardPicture'>
+                            <img src={ele.image} alt="{ele.image}" />
+                        </div>
+                    <div className="cardText">
+                        <div className='cardTitle'>{ele.name}</div>
+                        <div className='cardDescription'>{ele.description}</div>
+                    </div>
+                    <div className="cardCarte">
+                        <div>{ele.price}</div>
+                        <div className='roundButton'>
+                        <i className="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
                 </div>
             )}
             </div>
